@@ -31,7 +31,8 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  /*width: 100px;*/
+  width:100%
 }
 
 /* ---  Groups & Items --- */
@@ -101,7 +102,7 @@ form button {
   color: #fff;
   font-size: 24px;
   padding: 15px;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 /* -------  Footer ------- */
@@ -117,3 +118,81 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+
+
+/* NEW CODE HERE */
+#menu {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* img{
+  width: 100%;
+} */
+
+/* ------- Really Small mobile media query  ---------- */
+@media all and (max-width:400px){
+  .logo{
+    font-size: 50px;
+  }
+}
+/* -------  Desktop Media Query -------  breakpoint of 768*/
+
+@media all and (min-width:768px){
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  form div {
+  flex-direction: column;
+   width: 20%;
+  }
+  form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  form input, form select{
+    width: 100px;
+  }
+  form button {
+    width: 15%;
+  }
+  #about div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #about img{
+    width: 25%;
+  }
+  .row{
+    display: flex;
+    gap: 10px;
+  }
+.row div{
+  width: 50%;
+}
+#host{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#host div{
+  flex: 1;
+}
+}
+
+
+
+
+
