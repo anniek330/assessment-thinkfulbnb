@@ -143,6 +143,9 @@ form div {
   .logo{
     font-size: 50px;
   }
+  form button{
+    width:100%
+  }
 }
 /* -------  Desktop Media Query -------  breakpoint of 768*/
 
