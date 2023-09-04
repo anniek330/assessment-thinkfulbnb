@@ -133,6 +133,9 @@ form div {
   display: flex;
   justify-content: space-between;
 }
+form button{
+  width: 100%;
+}
 
 /* img{
   width: 100%;
@@ -145,6 +148,7 @@ form div {
   }
   form button{
     width:100%
+
   }
 }
 /* -------  Desktop Media Query -------  breakpoint of 768*/
